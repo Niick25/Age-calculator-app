@@ -4,48 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->  
   <title>Frontend Mentor | Age calculator app</title>
-
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="card">
     <div id="input-container">
-      <div>
-        <label for="day">DAY</label><br>
-        <input id="day" type="text" placeholder="DD">
+      <div class="head-text">
+        <label class="up-text" for="day">DAY</label><br>
+        <input class="selection" id="day" type="text" placeholder="DD">
       </div>
   
       <div>
-        <label for="month">MONTH</label><br>
-        <input id="month" type="text" placeholder="MM">
+        <label class="up-text" for="month">MONTH</label><br>
+        <input class="selection" id="month" type="text" placeholder="MM">
       </div>
   
       <div>
-        <label for="year">YEAR</label><br>
-        <input id="month" type="text" placeholder="YYYY">
+        <label class="up-text" for="year">YEAR</label><br>
+        <input class="selection" id="month" type="text" placeholder="YYYY">
       </div>
-      <div>
-        <hr>
-        <img src="assets/images/icon-arrow.svg" alt="">
-      </div>
+    </div>
+
+    <div class="middle-cestion">
+      <br><hr>
+      <img src="assets/images/icon-arrow.svg" alt="">
     </div>
   
     <div id="result">
       <div>
-        <p id="years">
-          -- years
-        </p>
+        <div id="years">
+          <p class="result-years">
+            - -
+          </p>
+          <p>
+            years
+          </p>
+        </div>
+        
+        <div id="months">
+          <p class="result-months">
+            - -
+          </p>
+          <p>
+            months
+          </p>
+        </div>
+
+        <div id="days">
+          <p class="result-days">
+            - -
+          </p>
+          <p>
+            days
+          </p>
+        </div>
        </div>
-      
-       <div>
-        <p id="months">
-          -- months
-        </p>
-       </div>
-      
-       <div>
-        <p id="days">
-          -- days
-        </p>
        </div>
     </div>
     
