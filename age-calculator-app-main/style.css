@@ -73,3 +73,11 @@ body{
     font-size: 80px;
     margin-right: 10px;
 }
+
+.eror-meassage{
+    font-size: 13px;
+    margin-top: 5px;
+    color: hsl(0, 100%, 67%);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+}
