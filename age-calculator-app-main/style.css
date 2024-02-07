@@ -53,6 +53,11 @@ body{
     margin-top: -50px;
 }
 
+.middle-cestion img:hover{
+    cursor: pointer;
+}
+
+
 .middle-cestion hr{
     width: 480px;
     border: 1px solid hsl(0, 0%, 94%);
@@ -80,4 +85,8 @@ body{
     color: hsl(0, 100%, 67%);
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-style: italic;
+}
+
+.error {
+    border-color: red;
 }
